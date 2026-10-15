@@ -1,0 +1,91 @@
+{
+  "_comment": "EDIT ME: add/remove items here. category must be one of: graphic-design, software-networking, media-music. Drop your real images into assets/images/portfolio and point image at them.",
+  "categories": [
+    { "id": "all", "label": "ALL" },
+    { "id": "graphic-design", "label": "GRAPHIC DESIGN" },
+    { "id": "software-networking", "label": "SOFTWARE & NETWORKING" },
+    { "id": "media-music", "label": "MEDIA & MUSIC" }
+  ],
+  "items": [
+    {
+      "id": "poster-handover",
+      "title": "Handover Event Poster",
+      "category": "graphic-design",
+      "categoryLabel": "Graphic Design",
+      "image": "assets/images/portfolio/poster-handover.svg",
+      "description": "Promotional poster designed for a Muni University student association handover event (September 2026)."
+    },
+    {
+      "id": "logo-brand",
+      "title": "Brand Logo Design",
+      "category": "graphic-design",
+      "categoryLabel": "Graphic Design",
+      "image": "assets/images/portfolio/logo-brand.svg",
+      "description": "Client logo and brand mark exploration — clean, bold and built to scale across print and digital."
+    },
+    {
+      "id": "social-ad",
+      "title": "Social Media Ad",
+      "category": "graphic-design",
+      "categoryLabel": "Graphic Design",
+      "image": "assets/images/portfolio/social-ad.svg",
+      "description": "Scroll-stopping social media advert set for a client campaign."
+    },
+    {
+      "id": "product-banner",
+      "title": "Product Banner",
+      "category": "graphic-design",
+      "categoryLabel": "Graphic Design",
+      "image": "assets/images/portfolio/product-banner.svg",
+      "description": "Product banner designed for premium print and digital placement."
+    },
+    {
+      "id": "whatsapp-bot",
+      "title": "GTNationDEV AI WhatsApp Bot",
+      "category": "software-networking",
+      "categoryLabel": "Software & Networking",
+      "image": "assets/images/portfolio/whatsapp-bot.svg",
+      "description": "AI-powered WhatsApp automation bot handling replies, orders and customer support."
+    },
+    {
+      "id": "network-topology",
+      "title": "Cisco Packet Tracer Topology",
+      "category": "software-networking",
+      "categoryLabel": "Software & Networking",
+      "image": "assets/images/portfolio/network-topology.svg",
+      "description": "Enterprise-style network built in Cisco Packet Tracer with VLANs, OSPF routing and switch port security."
+    },
+    {
+      "id": "photography",
+      "title": "Photography Sample",
+      "category": "media-music",
+      "categoryLabel": "Media & Music",
+      "image": "assets/images/portfolio/photography.svg",
+      "description": "Product and event photography captured and retouched for clients."
+    },
+    {
+      "id": "videography",
+      "title": "Videography Sample",
+      "category": "media-music",
+      "categoryLabel": "Media & Music",
+      "image": "assets/images/portfolio/videography.svg",
+      "description": "Event and promo videography, shot and edited end to end."
+    },
+    {
+      "id": "music-no-handouts",
+      "title": "NO HANDOUTS",
+      "category": "media-music",
+      "categoryLabel": "Media & Music",
+      "image": "assets/images/portfolio/music-no-handouts.svg",
+      "description": "Cover art and music production — NO HANDOUTS by GTNationDEV."
+    },
+    {
+      "id": "music-we-build-future",
+      "title": "We Build the Future",
+      "category": "media-music",
+      "categoryLabel": "Media & Music",
+      "image": "assets/images/portfolio/music-we-build-future.svg",
+      "description": "Cover art and music production — We Build the Future by GTNationDEV."
+    }
+  ]
+}

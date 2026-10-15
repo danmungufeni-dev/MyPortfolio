@@ -1,0 +1,9 @@
+<!-- PLACEHOLDER: replace with a real videography still -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Videography sample placeholder">
+  <rect width="800" height="600" fill="#111111"/>
+  <rect x="140" y="170" width="380" height="260" rx="24" fill="#4A4A4A"/>
+  <path d="M520 240l140-70v260l-140-70z" fill="#FDB827"/>
+  <circle cx="240" cy="300" r="34" fill="#111111"/>
+  <circle cx="240" cy="300" r="12" fill="#FDB827"/>
+  <text x="400" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#FDB827" letter-spacing="4">VIDEOGRAPHY</text>
+</svg>

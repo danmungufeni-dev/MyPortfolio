@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>document.documentElement.classList.add("js");</script>
+
+  <!-- ============================================================
+       SEO  ·  EDIT: title, description, keywords, canonical URL
+       ============================================================ -->
+  <title>Dan Mungufeni | GTNationDEV — Software Developer &amp; Graphic Designer</title>
+  <meta name="description" content="Dan Mungufeni (GTNationDEV) is a software developer, graphic designer and creative from Uganda building mobile apps, brands, video and IT solutions for real clients and communities." />
+  <meta name="keywords" content="Dan Mungufeni, GTNationDEV, software developer Uganda, graphic designer, Muni University, Java, Python, videography, photography, IT solutions" />
+  <meta name="author" content="Dan Mungufeni" />
+  <meta name="theme-color" content="#FDB827" />
+  <link rel="canonical" href="https://gtnationdev.example.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dan Mungufeni | GTNationDEV — Software Developer &amp; Graphic Designer" />
+  <meta property="og:description" content="Building practical tech and creative solutions for real clients and communities in Uganda." />
+  <meta property="og:url" content="https://gtnationdev.example.com/" />
+  <meta property="og:image" content="assets/images/og-cover.svg" />
+  <meta property="og:site_name" content="GTNationDEV" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dan Mungufeni | GTNationDEV" />
+  <meta name="twitter:description" content="Software Developer / Graphic Designer building practical tech and creative solutions in Uganda." />
+  <meta name="twitter:image" content="assets/images/og-cover.svg" />
+  <meta name="twitter:creator" content="@GTNationDEV" />
+
+  <!-- Favicon (yellow G · GTNationDEV mark) -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/images/favicon.svg" />
+
+  <!-- Fonts: heavy condensed display + clean body sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ============================================================
+       Structured data  ·  EDIT: social profile URLs
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dan Mungufeni",
+    "alternateName": "GTNationDEV",
+    "jobTitle": "Software Developer & Graphic Designer",
+    "description": "Second-year Bachelor of Information Technology student at Muni University building software, design and media solutions.",
+    "url": "https://gtnationdev.example.com/",
+    "image": "assets/images/profile.svg",
+    "email": "mailto:dan.mungufeni.dan@gmail.com",
+    "telephone": "+256778625624",
+    "address": { "@type": "PostalAddress", "addressCountry": "Uganda" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Muni University" },
+    "knowsAbout": ["Software Development", "Java", "Python", "Graphic Design", "Videography", "Photography", "Networking", "Music Production"],
+    "sameAs": [
+      "https://x.com/GTNationDEV",
+      "https://instagram.com/gt_nationdev",
+      "https://tiktok.com/@gtnationdev",
+      "https://www.linkedin.com/in/dan-mungufeni-7143343a3"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- ============================================================
+     SVG ICON SPRITE  ·  inline symbols referenced by their id (see the use tags below)
+     ============================================================ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9.5 21v-6h5v6"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor"><path d="m12 2.5 2.95 6.02 6.55.95-4.75 4.63 1.12 6.52L12 17.55l-5.87 3.07 1.12-6.52L2.5 9.47l6.55-.95z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-4 4 4 4"/><path d="m16 8 4 4-4 4"/><path d="M13.5 5 10.5 19"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18c1.4 0 2-1 2-2 0-1.2-1-1.6-1-2.8 0-.9.8-1.7 1.8-1.7H17a4 4 0 0 0 4-4c0-4.4-4-7.5-9-7.5z"/><circle cx="7.5" cy="10.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="10.5" cy="7" r="1.2" fill="currentColor" stroke="none"/><circle cx="14.5" cy="7.5" r="1.2" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l1.2-2h7.6L18 6h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.5" r="3.5"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2 3h2.5l2.2 11.2A2 2 0 0 0 8.7 16h9.6a2 2 0 0 0 2-1.6L22 7H5"/></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5 5L21 21l-2 .001L9.7 11.7a4 4 0 0 1-5-5l2.6 2.6 2.1-.6.6-2.1z"/></symbol>
+    <symbol id="i-network" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="19" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M12 7.5v4M12 11.5 6.5 17M12 11.5l5.5 5.5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24" fill="currentColor"><rect x="7" y="5.5" width="3.6" height="13" rx="1"/><rect x="13.4" y="5.5" width="3.6" height="13" rx="1"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20zm4.5-5.9c-.25-.13-1.5-.74-1.73-.82-.23-.09-.4-.13-.57.13-.17.25-.65.82-.8 1-.15.17-.3.19-.55.06-.25-.13-1.07-.4-2.04-1.26-.75-.67-1.26-1.5-1.4-1.76-.15-.25-.02-.39.11-.51.11-.11.25-.3.38-.44.13-.15.17-.25.25-.42.09-.17.04-.32-.02-.44-.06-.13-.57-1.38-.78-1.89-.2-.5-.41-.43-.57-.44h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.6c.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.5-.61 1.71-1.2.21-.59.21-1.09.15-1.2-.06-.11-.23-.17-.48-.3z"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.1v12.4a2.59 2.59 0 1 1-2.59-2.59c.27 0 .53.04.78.12V9.66a6 6 0 0 0-.78-.05A5.64 5.64 0 1 0 15.5 15.2V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3c-.94 0-1.85-.25-2.64-.7a4.3 4.3 0 0 1-.56-.38z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H9z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h3l1.5 4.5-2 1.5a12 12 0 0 0 5.5 5.5l1.5-2L19 14v3a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#home">Skip to content</a>
+
+<!-- ============================================================
+     RIGHT VERTICAL TIMELINE (desktop) · synced to active section
+     ============================================================ -->
+<nav class="timeline" aria-label="Section timeline">
+  <span class="timeline__line" aria-hidden="true"></span>
+  <a class="timeline__dot is-active" href="#home" data-spy="home" aria-label="Home"><svg class="ico"><use href="#i-home"/></svg></a>
+  <a class="timeline__dot" href="#about" data-spy="about" aria-label="About Me"><svg class="ico"><use href="#i-user"/></svg></a>
+  <a class="timeline__dot" href="#resume" data-spy="resume" aria-label="Resume"><svg class="ico"><use href="#i-file"/></svg></a>
+  <a class="timeline__dot" href="#portfolio" data-spy="portfolio" aria-label="Portfolio"><svg class="ico"><use href="#i-grid"/></svg></a>
+  <a class="timeline__dot" href="#testimonials" data-spy="testimonials" aria-label="Testimonials"><svg class="ico"><use href="#i-star"/></svg></a>
+  <a class="timeline__dot" href="#contact" data-spy="contact" aria-label="Contact"><svg class="ico"><use href="#i-mail"/></svg></a>
+</nav>
+
+<!-- ============================================================
+     LEFT SIDEBAR (desktop): charcoal block + yellow nav column
+     ============================================================ -->
+<aside class="sidebar" aria-label="Primary navigation">
+  <div class="sidebar__brand">
+    <!-- EDIT: swap assets/images/profile.svg for your photo -->
+    <img class="sidebar__photo" src="assets/images/profile.svg" alt="Portrait of Dan Mungufeni" width="120" height="120" loading="lazy" />
+    <p class="sidebar__name">DAN MUNGUFENI</p>
+    <p class="sidebar__brandline">GTNATIONDEV</p>
+  </div>
+
+  <nav class="sidebar__nav" aria-label="Sections">
+    <button class="sidebar__arrow" type="button" data-move="-1" aria-label="Previous section"><svg class="ico"><use href="#i-up"/></svg></button>
+    <ul class="sidebar__list">
+      <li><a class="sidebar__link is-active" href="#home" data-spy="home" data-nav="home">HOME</a></li>
+      <li><a class="sidebar__link" href="#about" data-spy="about" data-nav="about">ABOUT ME</a></li>
+      <li><a class="sidebar__link" href="#resume" data-spy="resume" data-nav="resume">RESUME</a></li>
+      <li><a class="sidebar__link" href="#portfolio" data-spy="portfolio" data-nav="portfolio">PORTFOLIO</a></li>
+      <li><a class="sidebar__link" href="#testimonials" data-spy="testimonials" data-nav="testimonials">TESTIMONIALS</a></li>
+      <li><a class="sidebar__link" href="#contact" data-spy="contact" data-nav="contact">CONTACT</a></li>
+    </ul>
+    <button class="sidebar__arrow" type="button" data-move="1" aria-label="Next section"><svg class="ico"><use href="#i-down"/></svg></button>
+  </nav>
+</aside>
+
+<!-- ============================================================
+     MOBILE TOP BAR + DRAWER
+     ============================================================ -->
+<header class="topbar">
+  <a class="topbar__brand" href="#home">GT<span class="topbar__brand-accent">NATION</span>DEV</a>
+  <button class="topbar__toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+    <svg class="ico ico--menu"><use href="#i-menu"/></svg>
+    <svg class="ico ico--close"><use href="#i-close"/></svg>
+  </button>
+</header>
+
+<nav class="mobile-nav" id="mobile-nav" hidden aria-label="Mobile navigation">
+  <ul>
+    <li><a href="#home" data-nav="home">HOME</a></li>
+    <li><a href="#about" data-nav="about">ABOUT ME</a></li>
+    <li><a href="#resume" data-nav="resume">RESUME</a></li>
+    <li><a href="#portfolio" data-nav="portfolio">PORTFOLIO</a></li>
+    <li><a href="#testimonials" data-nav="testimonials">TESTIMONIALS</a></li>
+    <li><a href="#contact" data-nav="contact">CONTACT</a></li>
+  </ul>
+  <div class="mobile-nav__socials">
+    <a href="https://x.com/GTNationDEV" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter"><svg class="ico"><use href="#i-x"/></svg></a>
+    <a href="https://instagram.com/gt_nationdev" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="ico"><use href="#i-instagram"/></svg></a>
+    <a href="https://tiktok.com/@gtnationdev" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg class="ico"><use href="#i-tiktok"/></svg></a>
+    <a href="https://www.linkedin.com/in/dan-mungufeni-7143343a3" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="ico"><use href="#i-linkedin"/></svg></a>
+  </div>
+  <p class="mobile-nav__note">READY TO HANDLE YOUR NEW PROJECT</p>
+</nav>
+
+<main class="content">
+
+  <!-- ==========================================================
+       HERO (white)  ·  EDIT: headline, tags, intro paragraph
+       ========================================================== -->
+  <section id="home" class="hero" data-spy="home" aria-labelledby="hero-title">
+    <span class="hero__bar hero__bar--left" aria-hidden="true"></span>
+    <span class="hero__bar hero__bar--right" aria-hidden="true"></span>
+
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="hero__hi">HI THERE!</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__im">I'M</span>
+          <span class="hero__name">DAN</span>
+        </h1>
+        <p class="tag tag--yellow">SOFTWARE DEVELOPER / GRAPHIC DESIGNER</p>
+        <p class="tag tag--black">READY TO HANDLE YOUR NEW PROJECT</p>
+        <p class="hero__intro">
+          I design and build practical technology, brands and media for real clients
+          and communities in Uganda — from mobile apps and networks to logos, event
+          posters, video and music.
+        </p>
+        <a class="btn btn--dark" href="#about">
+          MORE ABOUT ME
+          <svg class="ico"><use href="#i-down"/></svg>
+        </a>
+      </div>
+
+      <div class="hero__visual">
+        <div class="orbit">
+          <svg class="orbit__arc" viewBox="0 0 500 500" aria-hidden="true">
+            <circle cx="250" cy="250" r="200" fill="none" stroke="#FDB827" stroke-width="3" stroke-dasharray="943 314" stroke-linecap="round" transform="rotate(-125 250 250)"/>
+          </svg>
+          <img class="orbit__photo" src="assets/images/profile.svg" alt="Portrait of Dan Mungufeni" width="360" height="360" />
+
+          <!-- EDIT: orbit quick-links — positions sit on the arc (percent-based so they scale) -->
+          <a class="orbit__icon" style="left:50%;top:10%" href="#home" aria-label="Home"><svg class="ico"><use href="#i-home"/></svg></a>
+          <a class="orbit__icon" style="left:84.6%;top:30%" href="#about" aria-label="About Me"><svg class="ico"><use href="#i-user"/></svg></a>
+          <a class="orbit__icon" style="left:84.6%;top:70%" href="#resume" aria-label="Resume"><svg class="ico"><use href="#i-file"/></svg></a>
+          <a class="orbit__icon" style="left:50%;top:90%" href="#portfolio" aria-label="Portfolio"><svg class="ico"><use href="#i-grid"/></svg></a>
+          <a class="orbit__icon" style="left:15.4%;top:70%" href="#testimonials" aria-label="Testimonials"><svg class="ico"><use href="#i-star"/></svg></a>
+          <a class="orbit__icon" style="left:15.4%;top:30%" href="#contact" aria-label="Contact"><svg class="ico"><use href="#i-mail"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       ABOUT (grey)
+       ========================================================== -->
+  <section id="about" class="section" data-spy="about" aria-labelledby="about-title">
+    <header class="section__head reveal">
+      <h2 class="section__title" id="about-title">ABOUT ME</h2>
+    </header>
+
+    <!-- EDIT: about intro -->
+    <p class="section__lead reveal">
+      I'm <strong>Dan Mungufeni</strong>, Software Developer, Graphic Designer and Creative,
+      building under the <strong>GTNationDEV</strong> brand.
+    </p>
+    <p class="section__body reveal">
+      I'm a second-year (<strong>Year 2, Semester 1</strong>) Bachelor of Information Technology
+      student at <strong>Muni University</strong>. I build practical tech and creative solutions for
+      real clients and communities in Uganda — combining code, design and media into
+      products people actually use.
+    </p>
+
+    <!-- WHAT I DO -->
+    <h3 class="subhead reveal">What I Do</h3>
+    <ul class="do-list">
+      <li class="do-item reveal">
+        <span class="do-item__icon"><svg class="ico"><use href="#i-code"/></svg></span>
+        <div>
+          <h4>Software Development</h4>
+          <p>Mobile and desktop applications built with Java and Python.</p>
+        </div>
+      </li>
+      <li class="do-item reveal">
+        <span class="do-item__icon"><svg class="ico"><use href="#i-palette"/></svg></span>
+        <div>
+          <h4>Graphic Design</h4>
+          <p>Social media ads, product banners, logos and event posters.</p>
+        </div>
+      </li>
+      <li class="do-item reveal">
+        <span class="do-item__icon"><svg class="ico"><use href="#i-camera"/></svg></span>
+        <div>
+          <h4>Videography and Photography</h4>
+          <p>Capturing and editing stories, events and products that stand out.</p>
+        </div>
+      </li>
+    </ul>
+
+    <!-- FUN FACTS  ·  EDIT: replace "data-count" values + labels with your real numbers -->
+    <h3 class="subhead reveal">Fun Facts</h3>
+    <ul class="facts">
+      <li class="fact reveal"><span class="fact__num" data-count="3">0</span><span class="fact__label">Years of experience</span></li>
+      <li class="fact reveal"><span class="fact__num" data-count="42">0</span><span class="fact__label">Projects done</span></li>
+      <li class="fact reveal"><span class="fact__num" data-count="25">0</span><span class="fact__label">Happy clients</span></li>
+      <li class="fact reveal"><span class="fact__num" data-count="15">0</span><span class="fact__label">Events covered</span></li>
+      <li class="fact reveal"><span class="fact__num" data-count="8">0</span><span class="fact__label">Songs produced</span></li>
+      <li class="fact reveal"><span class="fact__num" data-count="6">0</span><span class="fact__label">Services offered</span></li>
+    </ul>
+
+    <!-- SERVICES -->
+    <h3 class="subhead reveal">Services</h3>
+    <ul class="services">
+      <li class="service reveal"><span class="service__icon"><svg class="ico"><use href="#i-code"/></svg></span><h4>Software Development</h4><p>Custom apps and automation.</p></li>
+      <li class="service reveal"><span class="service__icon"><svg class="ico"><use href="#i-palette"/></svg></span><h4>Graphic Design</h4><p>Branding, logos and ads.</p></li>
+      <li class="service reveal"><span class="service__icon"><svg class="ico"><use href="#i-camera"/></svg></span><h4>Videography &amp; Photography</h4><p>Coverage and editing.</p></li>
+      <li class="service reveal"><span class="service__icon"><svg class="ico"><use href="#i-cart"/></svg></span><h4>Phone &amp; Computer Sales</h4><p>Devices and accessories.</p></li>
+      <li class="service reveal"><span class="service__icon"><svg class="ico"><use href="#i-tool"/></svg></span><h4>Phone &amp; Computer Repairs</h4><p>Diagnostics and fixes.</p></li>
+      <li class="service reveal"><span class="service__icon"><svg class="ico"><use href="#i-network"/></svg></span><h4>IT Solutions &amp; Networking</h4><p>Setups, VLANs and routing.</p></li>
+    </ul>
+  </section>
+
+  <!-- ==========================================================
+       RESUME (grey)  ·  EDIT: education, experience entries
+       ========================================================== -->
+  <section id="resume" class="section" data-spy="resume" aria-labelledby="resume-title">
+    <header class="section__head reveal">
+      <h2 class="section__title" id="resume-title">RESUME</h2>
+    </header>
+
+    <div class="resume">
+      <div class="resume__col">
+        <h3 class="subhead">Education</h3>
+        <ol class="timeline-list">
+          <li class="timeline-item reveal">
+            <span class="timeline-item__dot" aria-hidden="true"></span>
+            <p class="timeline-item__time">Year 2 · Semester 1 (present)</p>
+            <h4>Bachelor of Information Technology</h4>
+            <p class="timeline-item__place">Muni University</p>
+            <p>Studying software development, networking and information systems while building real projects for clients.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="resume__col">
+        <h3 class="subhead">Experience</h3>
+        <ol class="timeline-list">
+          <li class="timeline-item reveal">
+            <span class="timeline-item__dot" aria-hidden="true"></span>
+            <p class="timeline-item__time">Founder</p>
+            <h4>GTNationDEV</h4>
+            <p class="timeline-item__place">Software · Design · Media · Sales · Repairs · IT</p>
+            <p>Running a creative-tech brand delivering apps, branding, media production, device sales and repairs, and IT solutions.</p>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-item__dot" aria-hidden="true"></span>
+            <p class="timeline-item__time">Project</p>
+            <h4>GTNationDEV AI WhatsApp Automation Bot</h4>
+            <p class="timeline-item__place">Automation · Messaging</p>
+            <p>Built an AI-powered WhatsApp bot to automate replies, orders and customer support.</p>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-item__dot" aria-hidden="true"></span>
+            <p class="timeline-item__time">September 2026</p>
+            <h4>Event Design Work</h4>
+            <p class="timeline-item__place">Muni University student association handover</p>
+            <p>Produced promotional materials and event branding for the association handover.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <h3 class="subhead reveal">Skills</h3>
+    <ul class="skills" aria-label="Skills">
+      <li class="skill reveal">Java</li>
+      <li class="skill reveal">Python</li>
+      <li class="skill reveal">VS Code</li>
+      <li class="skill reveal">AIDE (Android)</li>
+      <li class="skill reveal">Kali Linux</li>
+      <li class="skill reveal">Cisco Packet Tracer</li>
+      <li class="skill reveal">VLANs</li>
+      <li class="skill reveal">OSPF Routing</li>
+      <li class="skill reveal">Switch Port Security</li>
+      <li class="skill reveal">Graphic Design</li>
+      <li class="skill reveal">Video Editing</li>
+      <li class="skill reveal">Photo Editing</li>
+      <li class="skill reveal">Music Production</li>
+    </ul>
+
+    <!-- EDIT: drop your CV at assets/docs/Dan-Mungufeni-CV.pdf -->
+    <p class="resume__cta reveal">
+      <a class="btn btn--yellow" href="assets/docs/Dan-Mungufeni-CV.pdf" download>
+        DOWNLOAD CV
+        <svg class="ico"><use href="#i-download"/></svg>
+      </a>
+    </p>
+  </section>
+
+  <!-- ==========================================================
+       PORTFOLIO (grey)  ·  items live in data/portfolio.json
+       ========================================================== -->
+  <section id="portfolio" class="section" data-spy="portfolio" aria-labelledby="portfolio-title">
+    <header class="section__head reveal">
+      <h2 class="section__title" id="portfolio-title">PORTFOLIO</h2>
+    </header>
+
+    <div class="filters reveal" role="group" aria-label="Filter portfolio">
+      <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">ALL</button>
+      <button class="filter" type="button" data-filter="graphic-design" aria-pressed="false">GRAPHIC DESIGN</button>
+      <button class="filter" type="button" data-filter="software-networking" aria-pressed="false">SOFTWARE &amp; NETWORKING</button>
+      <button class="filter" type="button" data-filter="media-music" aria-pressed="false">MEDIA &amp; MUSIC</button>
+    </div>
+
+    <div class="grid grid--portfolio" id="portfolio-grid" aria-live="polite">
+      <!-- populated by js/main.js from data/portfolio.json -->
+    </div>
+
+    <!-- AUDIO PLAYER · EDIT: drop .mp3 files in assets/audio and update data-audio paths -->
+    <h3 class="subhead reveal">Music &amp; Audio</h3>
+    <div class="audio reveal" id="audio-player">
+      <p class="audio__note">Afrobeat · Trap · Hip-hop · Amapiano</p>
+      <ul class="audio__list" id="audio-list">
+        <li class="audio__track" data-audio="assets/audio/no-handouts.mp3">
+          <button class="audio__btn" type="button" aria-label="Play NO HANDOUTS"><svg class="ico"><use href="#i-play"/></svg></button>
+          <span class="audio__meta"><strong>NO HANDOUTS</strong><em>GTNationDEV · Afrobeat</em></span>
+          <span class="audio__progress" aria-hidden="true"><i></i></span>
+        </li>
+        <li class="audio__track" data-audio="assets/audio/we-build-the-future.mp3">
+          <button class="audio__btn" type="button" aria-label="Play We Build the Future"><svg class="ico"><use href="#i-play"/></svg></button>
+          <span class="audio__meta"><strong>WE BUILD THE FUTURE</strong><em>GTNationDEV · Trap</em></span>
+          <span class="audio__progress" aria-hidden="true"><i></i></span>
+        </li>
+      </ul>
+      <audio id="audio-el" preload="none"></audio>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       TESTIMONIALS (grey + charcoal cards)  ·  EDIT: quotes
+       ========================================================== -->
+  <section id="testimonials" class="section" data-spy="testimonials" aria-labelledby="testimonials-title">
+    <header class="section__head reveal">
+      <h2 class="section__title" id="testimonials-title">TESTIMONIALS</h2>
+    </header>
+
+    <div class="carousel" id="testimonials-carousel">
+      <div class="testimonials">
+        <figure class="testimonial reveal">
+          <img src="assets/images/testimonials/avatar-1.svg" alt="" width="64" height="64" loading="lazy" />
+          <figcaption>
+            <span class="testimonial__name">Client Name</span>
+            <span class="testimonial__role">Startup Founder</span>
+          </figcaption>
+          <p class="testimonial__stars" aria-label="5 out of 5 stars">
+            <svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg>
+          </p>
+          <blockquote>Dan delivered our brand and app ahead of schedule. Clear communication and real results.</blockquote>
+        </figure>
+
+        <figure class="testimonial reveal">
+          <img src="assets/images/testimonials/avatar-2.svg" alt="" width="64" height="64" loading="lazy" />
+          <figcaption>
+            <span class="testimonial__name">Client Name</span>
+            <span class="testimonial__role">Event Organiser</span>
+          </figcaption>
+          <p class="testimonial__stars" aria-label="5 out of 5 stars">
+            <svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg>
+          </p>
+          <blockquote>The posters and coverage elevated our event. Everything looked premium and on time.</blockquote>
+        </figure>
+
+        <figure class="testimonial reveal">
+          <img src="assets/images/testimonials/avatar-3.svg" alt="" width="64" height="64" loading="lazy" />
+          <figcaption>
+            <span class="testimonial__name">Client Name</span>
+            <span class="testimonial__role">Business Owner</span>
+          </figcaption>
+          <p class="testimonial__stars" aria-label="5 out of 5 stars">
+            <svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg>
+          </p>
+          <blockquote>Fixed our network and devices quickly, then set up our social media ads. Great value.</blockquote>
+        </figure>
+
+        <figure class="testimonial reveal">
+          <img src="assets/images/testimonials/avatar-4.svg" alt="" width="64" height="64" loading="lazy" />
+          <figcaption>
+            <span class="testimonial__name">Client Name</span>
+            <span class="testimonial__role">Artist / Client</span>
+          </figcaption>
+          <p class="testimonial__stars" aria-label="5 out of 5 stars">
+            <svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg>
+          </p>
+          <blockquote>My cover art and mixing came out exactly how I imagined. Professional and creative.</blockquote>
+        </figure>
+      </div>
+      <div class="carousel__dots" id="carousel-dots" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       CONTACT (grey)
+       ========================================================== -->
+  <section id="contact" class="section" data-spy="contact" aria-labelledby="contact-title">
+    <header class="section__head reveal">
+      <h2 class="section__title" id="contact-title">CONTACT</h2>
+    </header>
+    <p class="section__lead reveal">Feel free to contact me!</p>
+
+    <ul class="contact-cards">
+      <!-- EDIT: email address -->
+      <li class="contact-card reveal">
+        <a class="contact-card__circle" href="mailto:dan.mungufeni.dan@gmail.com" aria-label="Email Dan Mungufeni">
+          <svg class="ico"><use href="#i-mail"/></svg>
+        </a>
+        <h3>Email</h3>
+        <a class="contact-card__link" href="mailto:dan.mungufeni.dan@gmail.com">dan.mungufeni.dan@gmail.com</a>
+      </li>
+
+      <!-- EDIT: WhatsApp number + prefilled message -->
+      <li class="contact-card reveal">
+        <a class="contact-card__circle" href="https://wa.me/256778625624?text=Hi%20Dan%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+          <svg class="ico"><use href="#i-whatsapp"/></svg>
+        </a>
+        <h3>WhatsApp</h3>
+        <a class="contact-card__link" href="https://wa.me/256778625624?text=Hi%20Dan%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">+256 778 625 624</a>
+      </li>
+
+      <li class="contact-card reveal">
+        <span class="contact-card__circle" aria-hidden="true"><svg class="ico"><use href="#i-network"/></svg></span>
+        <h3>Social Networks</h3>
+        <div class="socials">
+          <a class="socials__link" href="https://x.com/GTNationDEV" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter @GTNationDEV"><svg class="ico"><use href="#i-x"/></svg></a>
+          <a class="socials__link" href="https://instagram.com/gt_nationdev" target="_blank" rel="noopener noreferrer" aria-label="Instagram @gt_nationdev"><svg class="ico"><use href="#i-instagram"/></svg></a>
+          <a class="socials__link" href="https://tiktok.com/@gtnationdev" target="_blank" rel="noopener noreferrer" aria-label="TikTok @gtnationdev"><svg class="ico"><use href="#i-tiktok"/></svg></a>
+          <a class="socials__link" href="https://www.linkedin.com/in/dan-mungufeni-7143343a3" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Dan Mungufeni"><svg class="ico"><use href="#i-linkedin"/></svg></a>
+        </div>
+      </li>
+    </ul>
+
+    <!-- CONTACT FORM  ·  EDIT: change FORM_MODE in js/main.js to 'formspree' to use a hosted form -->
+    <form class="contact-form reveal" id="contact-form" novalidate>
+      <div class="field">
+        <label for="cf-name">Name</label>
+        <input id="cf-name" name="name" type="text" autocomplete="name" required />
+      </div>
+      <div class="field">
+        <label for="cf-email">Email</label>
+        <input id="cf-email" name="email" type="email" autocomplete="email" required />
+      </div>
+      <div class="field field--full">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="5" required></textarea>
+      </div>
+      <p class="contact-form__status" id="cf-status" role="status" aria-live="polite"></p>
+      <button class="btn btn--dark" type="submit">
+        SEND VIA WHATSAPP
+        <svg class="ico"><use href="#i-whatsapp"/></svg>
+      </button>
+    </form>
+
+    <footer class="footer">
+      <p class="footer__thanks">THANKS FOR YOUR PATIENCE!</p>
+      <p class="footer__copy">© 2026 GTNationDEV</p>
+    </footer>
+  </section>
+</main>
+
+<!-- Floating WhatsApp chat button -->
+<a class="float-wa" href="https://wa.me/256778625624?text=Hi%20Dan%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg class="ico"><use href="#i-whatsapp"/></svg>
+</a>
+
+<!-- Back to top -->
+<button class="to-top" type="button" id="to-top" aria-label="Back to top" hidden>
+  <svg class="ico"><use href="#i-arrow-up"/></svg>
+</button>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" hidden>
+  <div class="lightbox__backdrop" data-close></div>
+  <div class="lightbox__panel">
+    <button class="lightbox__close" type="button" data-close aria-label="Close"><svg class="ico"><use href="#i-close"/></svg></button>
+    <img class="lightbox__img" id="lightbox-img" src="" alt="" />
+    <div class="lightbox__body">
+      <span class="lightbox__cat" id="lightbox-cat"></span>
+      <h3 class="lightbox__title" id="lightbox-title"></h3>
+      <p class="lightbox__desc" id="lightbox-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

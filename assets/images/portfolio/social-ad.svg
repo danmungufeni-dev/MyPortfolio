@@ -1,0 +1,9 @@
+<!-- PLACEHOLDER: replace with a real social media ad -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Social media ad placeholder">
+  <rect width="800" height="600" fill="#FDB827"/>
+  <rect x="60" y="80" width="350" height="440" rx="20" fill="#111111"/>
+  <rect x="430" y="80" width="310" height="440" rx="20" fill="#FFFFFF"/>
+  <text x="235" y="300" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="46" font-weight="900" fill="#FDB827">SOCIAL</text>
+  <text x="235" y="350" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="46" font-weight="900" fill="#FFFFFF">AD</text>
+  <text x="585" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#4A4A4A">GTNationDEV</text>
+</svg>

@@ -1,0 +1,26 @@
+<!-- PLACEHOLDER: replace with a real Cisco Packet Tracer topology screenshot -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Network topology placeholder">
+  <rect width="800" height="600" fill="#FFFFFF"/>
+  <g stroke="#4A4A4A" stroke-width="4" fill="none">
+    <line x1="400" y1="140" x2="180" y2="320"/>
+    <line x1="400" y1="140" x2="620" y2="320"/>
+    <line x1="180" y1="320" x2="320" y2="470"/>
+    <line x1="620" y1="320" x2="480" y2="470"/>
+    <line x1="180" y1="320" x2="620" y2="320"/>
+  </g>
+  <g fill="#111111">
+    <circle cx="400" cy="140" r="42"/>
+    <circle cx="180" cy="320" r="36"/>
+    <circle cx="620" cy="320" r="36"/>
+    <circle cx="320" cy="470" r="36"/>
+    <circle cx="480" cy="470" r="36"/>
+  </g>
+  <g fill="#FDB827">
+    <circle cx="400" cy="140" r="16"/>
+    <circle cx="180" cy="320" r="14"/>
+    <circle cx="620" cy="320" r="14"/>
+    <circle cx="320" cy="470" r="14"/>
+    <circle cx="480" cy="470" r="14"/>
+  </g>
+  <text x="400" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#4A4A4A" letter-spacing="2">PACKET TRACER TOPOLOGY</text>
+</svg>

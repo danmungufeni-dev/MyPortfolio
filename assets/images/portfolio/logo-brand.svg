@@ -1,0 +1,8 @@
+<!-- PLACEHOLDER: replace with a real logo design -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Logo design placeholder">
+  <rect width="800" height="600" fill="#D9D9D9"/>
+  <circle cx="400" cy="270" r="140" fill="#111111"/>
+  <circle cx="400" cy="270" r="140" fill="none" stroke="#FDB827" stroke-width="8"/>
+  <text x="400" y="300" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="120" font-weight="900" fill="#FDB827">G</text>
+  <text x="400" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#4A4A4A" letter-spacing="4">LOGO / BRAND MARK</text>
+</svg>
