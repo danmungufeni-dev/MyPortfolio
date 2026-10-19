@@ -1,8 +1,8 @@
-<!-- PLACEHOLDER: replace with a real product banner -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Product banner placeholder">
+<!-- GTNationDEV branded product-banner portfolio concept -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="GTNationDEV premium product banner design sample">
   <rect width="800" height="600" fill="#111111"/>
   <rect x="0" y="240" width="800" height="120" fill="#FDB827"/>
   <text x="60" y="200" font-family="Arial Black, Arial, sans-serif" font-size="54" font-weight="900" fill="#FFFFFF">PRODUCT BANNER</text>
   <text x="60" y="320" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111111" letter-spacing="3">PREMIUM QUALITY</text>
-  <text x="60" y="440" font-family="Arial, sans-serif" font-size="24" fill="#4A4A4A">Designed for print &amp; digital</text>
+  <text x="60" y="440" font-family="Arial, sans-serif" font-size="24" fill="#4A4A4A">Designed for print &amp; digital • GTNationDEV</text>
 </svg>
