@@ -1,5 +1,5 @@
-<!-- PLACEHOLDER: replace with the "We Build the Future" cover art -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="We Build the Future music cover placeholder">
+<!-- GTNationDEV branded music-cover concept -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="GTNationDEV We Build the Future music cover">
   <rect width="800" height="800" fill="#FDB827"/>
   <rect x="0" y="300" width="800" height="200" fill="#111111"/>
   <text x="400" y="200" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="66" font-weight="900" fill="#111111">WE BUILD</text>
