@@ -1,5 +1,5 @@
-<!-- PLACEHOLDER avatar 1: replace with a real client photo -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Client avatar placeholder">
+<!-- GTNationDEV palette client-avatar placeholder 1 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="GTNationDEV client avatar placeholder">
   <rect width="200" height="200" fill="#FDB827"/>
   <circle cx="100" cy="78" r="40" fill="#111111"/>
   <path d="M20 200c0-48 36-84 80-84s80 36 80 84z" fill="#111111"/>
