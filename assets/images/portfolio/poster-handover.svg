@@ -1,5 +1,5 @@
-<!-- PLACEHOLDER: replace with a real event poster image (any name), then update data/portfolio.json -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Event poster placeholder">
+<!-- GTNationDEV branded event-poster portfolio concept -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="GTNationDEV event poster design sample">
   <rect width="800" height="600" fill="#4A4A4A"/>
   <circle cx="640" cy="120" r="150" fill="#FDB827" opacity="0.25"/>
   <rect x="60" y="120" width="90" height="12" fill="#FDB827"/>
